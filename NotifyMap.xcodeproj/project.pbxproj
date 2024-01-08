@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8156E622B4C7D460079F9BD /* DestinationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E612B4C7D460079F9BD /* DestinationInputView.swift */; };
+		E8156E642B4C7E1A0079F9BD /* MapKitGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */; };
+		E8156E662B4C7E590079F9BD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E652B4C7E590079F9BD /* ContentViewModel.swift */; };
+		E8156E682B4C7E910079F9BD /* LocationsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E672B4C7E910079F9BD /* LocationsDetailsView.swift */; };
+		E8156E6A2B4C7F1A0079F9BD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E692B4C7F1A0079F9BD /* LocationManager.swift */; };
+		E8156E6C2B4C7F480079F9BD /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E6B2B4C7F480079F9BD /* NotificationManager.swift */; };
+		E8156E712B4C80530079F9BD /* CLLocationCoordinate2D + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E702B4C80530079F9BD /* CLLocationCoordinate2D + Extensions.swift */; };
 		E8E030992B4C7C5F002E505F /* NotifyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */; };
 		E8E0309B2B4C7C5F002E505F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E0309A2B4C7C5F002E505F /* ContentView.swift */; };
 		E8E0309D2B4C7C61002E505F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E0309C2B4C7C61002E505F /* Assets.xcassets */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8156E612B4C7D460079F9BD /* DestinationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInputView.swift; sourceTree = "<group>"; };
+		E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitGeocoder.swift; sourceTree = "<group>"; };
+		E8156E652B4C7E590079F9BD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E8156E672B4C7E910079F9BD /* LocationsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDetailsView.swift; sourceTree = "<group>"; };
+		E8156E692B4C7F1A0079F9BD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E8156E6B2B4C7F480079F9BD /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		E8156E702B4C80530079F9BD /* CLLocationCoordinate2D + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D + Extensions.swift"; sourceTree = "<group>"; };
 		E8E030952B4C7C5F002E505F /* NotifyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyMapApp.swift; sourceTree = "<group>"; };
 		E8E0309A2B4C7C5F002E505F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8156E6F2B4C803A0079F9BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8156E702B4C80530079F9BD /* CLLocationCoordinate2D + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E8E0308C2B4C7C5F002E505F = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +117,15 @@
 			isa = PBXGroup;
 			children = (
 				E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */,
+				E8156E612B4C7D460079F9BD /* DestinationInputView.swift */,
 				E8E0309A2B4C7C5F002E505F /* ContentView.swift */,
+				E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */,
+				E8156E652B4C7E590079F9BD /* ContentViewModel.swift */,
+				E8156E672B4C7E910079F9BD /* LocationsDetailsView.swift */,
+				E8156E692B4C7F1A0079F9BD /* LocationManager.swift */,
+				E8156E6B2B4C7F480079F9BD /* NotificationManager.swift */,
 				E8E0309C2B4C7C61002E505F /* Assets.xcassets */,
+				E8156E6F2B4C803A0079F9BD /* Extensions */,
 				E8E0309E2B4C7C61002E505F /* Preview Content */,
 			);
 			path = NotifyMap;
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8156E682B4C7E910079F9BD /* LocationsDetailsView.swift in Sources */,
 				E8E0309B2B4C7C5F002E505F /* ContentView.swift in Sources */,
+				E8156E642B4C7E1A0079F9BD /* MapKitGeocoder.swift in Sources */,
+				E8156E6A2B4C7F1A0079F9BD /* LocationManager.swift in Sources */,
 				E8E030992B4C7C5F002E505F /* NotifyMapApp.swift in Sources */,
+				E8156E622B4C7D460079F9BD /* DestinationInputView.swift in Sources */,
+				E8156E6C2B4C7F480079F9BD /* NotificationManager.swift in Sources */,
+				E8156E662B4C7E590079F9BD /* ContentViewModel.swift in Sources */,
+				E8156E712B4C80530079F9BD /* CLLocationCoordinate2D + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +461,7 @@
 				DEVELOPMENT_TEAM = 26KXCH55VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +491,7 @@
 				DEVELOPMENT_TEAM = 26KXCH55VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
