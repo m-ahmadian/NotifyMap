@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8156E622B4C7D460079F9BD /* DestinationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E612B4C7D460079F9BD /* DestinationInputView.swift */; };
+		E8156E642B4C7E1A0079F9BD /* MapKitGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */; };
 		E8E030992B4C7C5F002E505F /* NotifyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */; };
 		E8E0309B2B4C7C5F002E505F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E0309A2B4C7C5F002E505F /* ContentView.swift */; };
 		E8E0309D2B4C7C61002E505F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E0309C2B4C7C61002E505F /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		E8156E612B4C7D460079F9BD /* DestinationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInputView.swift; sourceTree = "<group>"; };
+		E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitGeocoder.swift; sourceTree = "<group>"; };
 		E8E030952B4C7C5F002E505F /* NotifyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyMapApp.swift; sourceTree = "<group>"; };
 		E8E0309A2B4C7C5F002E505F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				E8E030982B4C7C5F002E505F /* NotifyMapApp.swift */,
 				E8156E612B4C7D460079F9BD /* DestinationInputView.swift */,
 				E8E0309A2B4C7C5F002E505F /* ContentView.swift */,
+				E8156E632B4C7E1A0079F9BD /* MapKitGeocoder.swift */,
 				E8E0309C2B4C7C61002E505F /* Assets.xcassets */,
 				E8E0309E2B4C7C61002E505F /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E0309B2B4C7C5F002E505F /* ContentView.swift in Sources */,
+				E8156E642B4C7E1A0079F9BD /* MapKitGeocoder.swift in Sources */,
 				E8E030992B4C7C5F002E505F /* NotifyMapApp.swift in Sources */,
 				E8156E622B4C7D460079F9BD /* DestinationInputView.swift in Sources */,
 			);
